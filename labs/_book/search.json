@@ -1,0 +1,132 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "An Introduction to Reproducible Research and Probabilistic Modelling",
+    "section": "",
+    "text": "Preface\n\nConnection to McLevey (2022)…\n\n\n\n\n\n\n\nThis is a Manuscript in Progress\n\n\n\n\nWhat to expect\n\nHow to give feedback\n\n\n\n\n\n\nEverything is not fine with the way we teach and practice statistics in the sciences. We can all do better.\n\n\n\n\n\nEverything is not fine with the way we teach and practice statistics in the sciences. We can all do better.\n\n\n\nMcLevey, John. 2022. Doing Computational Social Science: A Practical Introduction. Sage.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "chapters/1-introduction.html",
+    "href": "chapters/1-introduction.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/2-computing.html",
+    "href": "chapters/2-computing.html",
+    "title": "2  Scientific Computing and Reproducible Research",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Scientific Computing and Reproducible Research</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/3-causal-generative-models.html",
+    "href": "chapters/3-causal-generative-models.html",
+    "title": "3  Foundations of Causal and Generative Models",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Foundations of Causal and Generative Models</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/4-probabilistic-programming.html",
+    "href": "chapters/4-probabilistic-programming.html",
+    "title": "4  Foundations of Probabilistic Programming",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Foundations of Probabilistic Programming</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/5-bayesian-inference.html",
+    "href": "chapters/5-bayesian-inference.html",
+    "title": "5  Quantifying Uncertainty and Reallocating Credibility",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Quantifying Uncertainty and Reallocating Credibility</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/6-stochastic-sampling.html",
+    "href": "chapters/6-stochastic-sampling.html",
+    "title": "6  Automating Inference via Stochastic Sampling",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Automating Inference via Stochastic Sampling</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/7-linear-models.html",
+    "href": "chapters/7-linear-models.html",
+    "title": "7  Linear Models",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Linear Models</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/8-hierarchical-regression.html",
+    "href": "chapters/8-hierarchical-regression.html",
+    "title": "8  Hierarchical Regression",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hierarchical Regression</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/9-measurement-missing-data-glms.html",
+    "href": "chapters/9-measurement-missing-data-glms.html",
+    "title": "9  Measurement Error, Missing Data, and Generalized Linear Models",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Measurement Error, Missing Data, and Generalized Linear Models</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/10-modelling-networks.html",
+    "href": "chapters/10-modelling-networks.html",
+    "title": "10  Modelling Network Structure and Dynamics",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Modelling Network Structure and Dynamics</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/11-agent-based-models.html",
+    "href": "chapters/11-agent-based-models.html",
+    "title": "11  Complex Systems and Agent-based Models",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Complex Systems and Agent-based Models</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/12-conclusion.html",
+    "href": "chapters/12-conclusion.html",
+    "title": "12  Conclusion",
+    "section": "",
+    "text": "Coming soon…\n\n13 References",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Conclusion</span>"
+    ]
+  }
+]

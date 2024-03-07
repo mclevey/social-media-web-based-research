@@ -1,0 +1,260 @@
+---
+title: "Introduction"
+subtitle: "INTEG 475 | [Data, Methods, and Models for Future Cities]{.yellow} | Module 01"
+author: Dr. John McLevey
+institute: "[Knowledge Integration](https://uwaterloo.ca/knowledge-integration/), [Sociology & Legal Studies](https://uwaterloo.ca/sociology-and-legal-studies/) <br> University of Waterloo"
+format:
+  revealjs: 
+    theme: [default, custom.scss]
+    embed-resources: true
+    execute:
+      echo: true
+      warning: false
+      cache: true
+      freeze: true
+    slide-number: true
+    chalkboard: false
+    preview-links: auto
+    smaller: true
+    fig-align: left
+    fig-format: svg
+    lightbox: true
+    scrollable: true
+    code-overflow: scroll
+    code-fold: false
+    code-line-numbers: true
+    code-copy: hover
+    code-block-border-left: gray 
+    code-block-bg: slate
+    reference-location: document
+    logo: ../images/logo.png
+    footer: <https://www.johnmclevey.com/social-media-web-based-research/>
+    email-obfuscation: javascript
+highlight-style: "nord"
+---
+
+## Columns
+
+:::: {.columns}
+
+::: {.column width=50%}
+Left.
+🔥🔥🔥
+:::
+
+::: {.column width=50%}
+Right.
+🔥🔥🔥
+:::
+
+::::
+
+## Python
+
+Using `#| output-location: column-fragment` puts the output in the adjacent column space.
+
+```{python}
+#| output-location: column-fragment
+print("hello world!")
+```
+
+## Python
+
+```{python}
+#| output-location: column
+import matplotlib.pyplot as plt
+import seaborn as sns
+tips = sns.load_dataset("tips")
+tips.head()
+```
+
+## Python
+
+Output on the **following** slide...
+
+```{python}
+#| output-location: slide
+sns.scatterplot(data=tips, x="total_bill", y="tip")
+plt.show()
+```
+
+
+## In Development
+
+![](images/everything_is_fine.jpg)
+
+::: {.notes}
+Speaker notes go here.
+:::
+
+## Documentation
+
+- [Presenations with Quarto](https://quarto.org/docs/presentations/revealjs/)
+- See also basic `reveal.js` stuff, can port over old content.
+- You [can]{.yellow} have footnotes.^[See how it works?]
+- Another^[Yep.]
+
+# code.
+
+## Highlight Code
+
+See lines 6-8.
+
+```{.python code-line-numbers="6-8"}
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+## Highlight Code
+
+See lines 7 and 9.
+
+```{.python code-line-numbers="7,9"}
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+## Highlight Code
+
+Finally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:
+
+```{.python code-line-numbers="|6|9"}
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+##
+
+```{python}
+print('Hi...')
+```
+
+##
+
+```{python}
+#| echo: true
+print('Hi...')
+```
+
+## Annotate Code
+
+```python
+import pymc # <1>
+print('Hello World') # <2>
+print('Hello World') # <3>
+print('Hello World') # <4>
+print('Hello World') # <5>
+
+```
+
+1. this is a test
+2. this is a test
+3. this is a test
+4. this is a test
+5. this is a test 
+
+
+## In Development
+
+![](images/everything_is_fine.jpg)
+
+::: {.notes}
+Speaker notes go here.
+:::
+
+## Documentation
+
+- [Presenations with Quarto](https://quarto.org/docs/presentations/revealjs/)
+- See also basic `reveal.js` stuff, can port over old content.
+- You can have footnotes.^[See how it works?]
+- Another^[Yep.]
+
+# code.
+
+## Highlight Code
+
+See lines 6-8.
+
+```{.python code-line-numbers="6-8"}
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+## Highlight Code
+
+See lines 7 and 9.
+
+```{.python code-line-numbers="7,9"}
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+## Highlight Code
+
+Finally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:
+
+```{.python code-line-numbers="|6|9"}
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+##
+
+```{python}
+print('Hi...')
+```
+
+##
+
+```{python}
+#| echo: true
+print('Hi...')
+```

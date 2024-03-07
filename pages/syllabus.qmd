@@ -1,0 +1,76 @@
+---
+title: Web-based and Social Media Research Methods
+description: INTEG 475 | Undergraduate Course | In person | Lectures + Labs
+author: John McLevey
+date: 06/22/2023
+date-modified: last-modified
+bibliography: '../labs/references.bib'
+---
+
+:::{.callout-note}
+## Instructor Information
+Dr. **John McLevey** (he/him)  
+Knowledge Integration, Sociology & Legal Studies   
+University of Waterloo   
+Email: <john.mclevey@uwaterloo.ca>
+
+**Office Hours**: Mondays, 1:00 - 4:00 pm or by appointment   
+**Office**: EV1-215, University of Waterloo   
+:::
+
+## Course Description
+
+This course is an introduction to social media and web-based research methods for social scientists. It has two overarching goals: (1) to introduce students to cutting-edge social and political research, with an emphasis on social influence, disinformation and manipulation, political opinions, and the use of social media and other communications technologies by states and social movements; and (2) to help students develop a foundational skillset in collecting, processing, and analysing social media and web-based data.
+
+## Required Books
+
+We will read the following 4 books over the course of the semester. See the [Course Schedule](#course-schedule) for details on weekly reading assignments.
+
+- Zeynep @tufekci2017twitter, *Twitter and Tear Gas: The Power and Fragility of Networked Protest*
+- Molly @roberts2018censored, *Censored: Distraction and Diversion Insider China's Great Firewall*
+- Chris @bail2022breaking, *Breaking the Social Media Prism: How to Make Our Platforms Less Polarizing*
+- Philip @howard2020lie, *Lie Machines: How to Save Democracy from Troll Armies, Deceitful Robots, Junk News Operations, and Political Operatives*
+
+## Research Software
+
+This course will use the programming language Python to collect, process, and analyze social media data. While some previous experience with programming is beneficial, *it is not required or assumed*. You will have access to all code I present in lab sessions, and you will not be expected to write your own code (although you are welcome to do so).^[Students who want to learn more about Python programming for research may be interested in INTEG 440 -- Computational Social Science.]
+
+## Assessment
+
+- Midterm and Final Exam
+- 2 Posts on the Course Blog
+    - 1 conceptual / reading response
+    - 1 data analysis
+
+## Course Schedule
+
+All content linked below can also be accessed from the menu at the top of the course website.
+
+|               | Topic                                                      | Assigned Reading      |
+|:--------------|:-----------------------------------------------------------|:----------------------|
+| Module 01 (LEC) | Introduction to the Course; Ethics, Politics, and Privacy  |                       |
+| Module 01 (LAB) | [Introduction to Computing and Data Analysis]()                |                       |
+| Module 02 (LEC) | Echo Chambers, Filter Bubbles, and Polarization            | Bail pages 1-40       |
+| Module 02 (LAB) | [Collecting Data from Social Media APIs]()                     |                       |
+| Module 03 (LEC) | Echo Chambers, Filter Bubbles, and Polarization            | Bail pages 41-83      |
+| Module 03 (LAB) | [Scraping and Spidering the Web]()                             |                       |
+| Module 04 (LEC) | Echo Chambers, Filter Bubbles, and Polarization            | Bail pages 84-132     |
+| Module 04 (LAB) | [Echo Chambers in Interaction and Discussion Networks (I)]()              |                       |
+| Module 05 (LEC) | Social Media and State Censorship                          | Roberts pages 1-92    |
+| Module 05 (LAB) | [Echo Chambers in Interaction and Discussion Networks (II)]()                        |                       |
+| Module 06 (LEC) | Social Media and State Censorship                          | Roberts pages 93-187  |
+| Module 06 (LAB) | [Text Analysis - Qualitative and Quantitative Methods]()       |                       |
+| Module 07 (LEC) | Social Media and State Censorship                          | Roberts pages 190-240 |
+| Module 07 (LAB) | [Summarization, Thematic Analysis, and Topic Models (I)]()     |                       |
+| Module 08 (LEC) | Censorship, Social Networks, and Movement Cultures         | Tufecki pages 1-114   |
+| Module 08 (LAB) | [Summarization, Thematic Analysis, and Topic Models (II)]()    |                       |
+| Module 09 (LEC) | Tools for Protest: Technology and Social Media               | Tufecki pages 115-188 |
+| Module 09 (LAB) | [Affect, Emotion, and Sentiment Analysis (I)]()                |                       |
+| Module 10 (LEC) | Outcomes After Protest                                     | Tufecki pages 189-277 |
+| Module 10 (LAB) | [Affect, Emotion, and Sentiment Analysis (II)]()               |                       |
+| Module 11 (LEC) | Disinformation and the Science and Technology of Lie Machines | Howard pages 1-81     |
+| Module 11 (LAB) | [Political Ideologies and Belief Networks (I)]()                   |                       |
+| Module 12 (LEC) | Media, Social Media, Democracy, and Dictatorship           | Howard pages 82-170   |
+| Module 12 (LAB) | [Political Ideologies and Belief Networks (II)]()                  |                       |
+
+<!-- Working with Image, Video, and Audio Data -->

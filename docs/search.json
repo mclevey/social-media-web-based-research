@@ -1,0 +1,1048 @@
+[
+  {
+    "objectID": "slides/test_deck.html#columns",
+    "href": "slides/test_deck.html#columns",
+    "title": "Introduction",
+    "section": "Columns",
+    "text": "Columns\n\n\nLeft. 🔥🔥🔥\n\nRight. 🔥🔥🔥"
+  },
+  {
+    "objectID": "slides/test_deck.html#python",
+    "href": "slides/test_deck.html#python",
+    "title": "Introduction",
+    "section": "Python",
+    "text": "Python\nUsing #| output-location: column-fragment puts the output in the adjacent column space.\n\n\nprint(\"hello world!\")\n\n\nhello world!"
+  },
+  {
+    "objectID": "slides/test_deck.html#python-1",
+    "href": "slides/test_deck.html#python-1",
+    "title": "Introduction",
+    "section": "Python",
+    "text": "Python\n\n\nimport matplotlib.pyplot as plt\nimport seaborn as sns\ntips = sns.load_dataset(\"tips\")\ntips.head()\n\n\n\n\n\n\n\n\n\n\ntotal_bill\ntip\nsex\nsmoker\nday\ntime\nsize\n\n\n\n\n0\n16.99\n1.01\nFemale\nNo\nSun\nDinner\n2\n\n\n1\n10.34\n1.66\nMale\nNo\nSun\nDinner\n3\n\n\n2\n21.01\n3.50\nMale\nNo\nSun\nDinner\n3\n\n\n3\n23.68\n3.31\nMale\nNo\nSun\nDinner\n2\n\n\n4\n24.59\n3.61\nFemale\nNo\nSun\nDinner\n4"
+  },
+  {
+    "objectID": "slides/test_deck.html#python-2",
+    "href": "slides/test_deck.html#python-2",
+    "title": "Introduction",
+    "section": "Python",
+    "text": "Python\nOutput on the following slide…\n\nsns.scatterplot(data=tips, x=\"total_bill\", y=\"tip\")\nplt.show()"
+  },
+  {
+    "objectID": "slides/test_deck.html#python-2-output",
+    "href": "slides/test_deck.html#python-2-output",
+    "title": "Introduction",
+    "section": "Python",
+    "text": "Python\n\n\n\n\n \n  \n   \n    \n    2024-02-26T15:03:55.371965\n    image/svg+xml\n    \n     \n      Matplotlib v3.8.0, https://matplotlib.org/"
+  },
+  {
+    "objectID": "slides/test_deck.html#in-development",
+    "href": "slides/test_deck.html#in-development",
+    "title": "Introduction",
+    "section": "In Development",
+    "text": "In Development\n\n\nSpeaker notes go here."
+  },
+  {
+    "objectID": "slides/test_deck.html#documentation",
+    "href": "slides/test_deck.html#documentation",
+    "title": "Introduction",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.1\nAnother2"
+  },
+  {
+    "objectID": "slides/test_deck.html#highlight-code",
+    "href": "slides/test_deck.html#highlight-code",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/test_deck.html#highlight-code-1",
+    "href": "slides/test_deck.html#highlight-code-1",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/test_deck.html#highlight-code-2",
+    "href": "slides/test_deck.html#highlight-code-2",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/test_deck.html#section",
+    "href": "slides/test_deck.html#section",
+    "title": "Introduction",
+    "section": "",
+    "text": "print('Hi...')\n\nHi..."
+  },
+  {
+    "objectID": "slides/test_deck.html#section-1",
+    "href": "slides/test_deck.html#section-1",
+    "title": "Introduction",
+    "section": "",
+    "text": "print('Hi...')\n\nHi..."
+  },
+  {
+    "objectID": "slides/test_deck.html#annotate-code",
+    "href": "slides/test_deck.html#annotate-code",
+    "title": "Introduction",
+    "section": "Annotate Code",
+    "text": "Annotate Code\n1import pymc\n2print('Hello World')\n3print('Hello World')\n4print('Hello World')\n5print('Hello World')\n\n1\n\nthis is a test\n\n2\n\nthis is a test\n\n3\n\nthis is a test\n\n4\n\nthis is a test\n\n5\n\nthis is a test"
+  },
+  {
+    "objectID": "slides/test_deck.html#in-development-1",
+    "href": "slides/test_deck.html#in-development-1",
+    "title": "Introduction",
+    "section": "In Development",
+    "text": "In Development\n\n\nSpeaker notes go here."
+  },
+  {
+    "objectID": "slides/test_deck.html#documentation-1",
+    "href": "slides/test_deck.html#documentation-1",
+    "title": "Introduction",
+    "section": "Documentation",
+    "text": "Documentation\n\nPresenations with Quarto\nSee also basic reveal.js stuff, can port over old content.\nYou can have footnotes.3\nAnother4"
+  },
+  {
+    "objectID": "slides/test_deck.html#highlight-code-3",
+    "href": "slides/test_deck.html#highlight-code-3",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nSee lines 6-8.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/test_deck.html#highlight-code-4",
+    "href": "slides/test_deck.html#highlight-code-4",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nSee lines 7 and 9.\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/test_deck.html#highlight-code-5",
+    "href": "slides/test_deck.html#highlight-code-5",
+    "title": "Introduction",
+    "section": "Highlight Code",
+    "text": "Highlight Code\nFinally, you can highlight different line ranges progressively by separating them with |. For example, here we start by showing all lines, then progress to highlighting line 6, and finally to highlighting line 9:\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(subplot_kw={'projection': 'polar'})\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()"
+  },
+  {
+    "objectID": "slides/test_deck.html#section-2",
+    "href": "slides/test_deck.html#section-2",
+    "title": "Introduction",
+    "section": "",
+    "text": "print('Hi...')\n\nHi..."
+  },
+  {
+    "objectID": "slides/test_deck.html#section-3",
+    "href": "slides/test_deck.html#section-3",
+    "title": "Introduction",
+    "section": "",
+    "text": "print('Hi...')\n\nHi...\n\n\n\n\n\n\nhttps://www.johnmclevey.com/social-media-web-based-research/"
+  },
+  {
+    "objectID": "slides/test_deck.html#footnotes",
+    "href": "slides/test_deck.html#footnotes",
+    "title": "Introduction",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nSee how it works?\nYep.\nSee how it works?\nYep."
+  },
+  {
+    "objectID": "slides/Slides-11.html#coming-soon",
+    "href": "slides/Slides-11.html#coming-soon",
+    "title": "Disinformation and the Science and Technology of Lie Machines",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/social-media-web-based-research/"
+  },
+  {
+    "objectID": "slides/Slides-09.html#coming-soon",
+    "href": "slides/Slides-09.html#coming-soon",
+    "title": "Tools for Protest: Technology and Social Media",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/social-media-web-based-research/"
+  },
+  {
+    "objectID": "slides/Slides-07.html#coming-soon",
+    "href": "slides/Slides-07.html#coming-soon",
+    "title": "Social Media and State Censorship",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/social-media-web-based-research/"
+  },
+  {
+    "objectID": "slides/Slides-05.html#coming-soon",
+    "href": "slides/Slides-05.html#coming-soon",
+    "title": "Social Media and State Censorship",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/social-media-web-based-research/"
+  },
+  {
+    "objectID": "slides/Slides-03.html#coming-soon",
+    "href": "slides/Slides-03.html#coming-soon",
+    "title": "Echo Chambers, Filter Bubbles, and Polarization",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/social-media-web-based-research/"
+  },
+  {
+    "objectID": "slides/Slides-01.html#coming-soon",
+    "href": "slides/Slides-01.html#coming-soon",
+    "title": "Introduction to the Course; Ethics, Politics, and Privacy",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/social-media-web-based-research/"
+  },
+  {
+    "objectID": "pages/software.html",
+    "href": "pages/software.html",
+    "title": "Research Software",
+    "section": "",
+    "text": "Coming soon…"
+  },
+  {
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "About",
+    "section": "",
+    "text": "About\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-11.html",
+    "href": "modules/Module-11.html",
+    "title": "Module 11: Complex Systems and Agent-based Models",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-11.html#learning-objectives",
+    "href": "modules/Module-11.html#learning-objectives",
+    "title": "Module 11: Complex Systems and Agent-based Models",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-11.html#module-topics",
+    "href": "modules/Module-11.html#module-topics",
+    "title": "Module 11: Complex Systems and Agent-based Models",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nBasics of Data Summary and Visualization with Python"
+  },
+  {
+    "objectID": "modules/Module-11.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-11.html#assigned-reading-lecture-slides",
+    "title": "Module 11: Complex Systems and Agent-based Models",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nComplex Systems and Agent-based Models\nModule 11 Slides"
+  },
+  {
+    "objectID": "modules/Module-11.html#lab",
+    "href": "modules/Module-11.html#lab",
+    "title": "Module 11: Complex Systems and Agent-based Models",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-11.html#recommended-additional-resources",
+    "href": "modules/Module-11.html#recommended-additional-resources",
+    "title": "Module 11: Complex Systems and Agent-based Models",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-11.html#references",
+    "href": "modules/Module-11.html#references",
+    "title": "Module 11: Complex Systems and Agent-based Models",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-09.html",
+    "href": "modules/Module-09.html",
+    "title": "Module 09: Measurement Error, Missing Data, and Generalized Linear Models",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-09.html#learning-objectives",
+    "href": "modules/Module-09.html#learning-objectives",
+    "title": "Module 09: Measurement Error, Missing Data, and Generalized Linear Models",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-09.html#module-topics",
+    "href": "modules/Module-09.html#module-topics",
+    "title": "Module 09: Measurement Error, Missing Data, and Generalized Linear Models",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nBasics of Data Summary and Visualization with Python"
+  },
+  {
+    "objectID": "modules/Module-09.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-09.html#assigned-reading-lecture-slides",
+    "title": "Module 09: Measurement Error, Missing Data, and Generalized Linear Models",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nMeasurement Error, Missing Data, and Generalized Linear Models\nModule 9 Slides"
+  },
+  {
+    "objectID": "modules/Module-09.html#lab",
+    "href": "modules/Module-09.html#lab",
+    "title": "Module 09: Measurement Error, Missing Data, and Generalized Linear Models",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-09.html#recommended-additional-resources",
+    "href": "modules/Module-09.html#recommended-additional-resources",
+    "title": "Module 09: Measurement Error, Missing Data, and Generalized Linear Models",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-09.html#references",
+    "href": "modules/Module-09.html#references",
+    "title": "Module 09: Measurement Error, Missing Data, and Generalized Linear Models",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-07.html",
+    "href": "modules/Module-07.html",
+    "title": "Module 07: Linear Models",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-07.html#learning-objectives",
+    "href": "modules/Module-07.html#learning-objectives",
+    "title": "Module 07: Linear Models",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-07.html#module-topics",
+    "href": "modules/Module-07.html#module-topics",
+    "title": "Module 07: Linear Models",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nBasics of Data Summary and Visualization with Python"
+  },
+  {
+    "objectID": "modules/Module-07.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-07.html#assigned-reading-lecture-slides",
+    "title": "Module 07: Linear Models",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nLinear Models\nModule 7 Slides"
+  },
+  {
+    "objectID": "modules/Module-07.html#lab",
+    "href": "modules/Module-07.html#lab",
+    "title": "Module 07: Linear Models",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-07.html#recommended-additional-resources",
+    "href": "modules/Module-07.html#recommended-additional-resources",
+    "title": "Module 07: Linear Models",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-07.html#references",
+    "href": "modules/Module-07.html#references",
+    "title": "Module 07: Linear Models",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-05.html",
+    "href": "modules/Module-05.html",
+    "title": "Module 05: Quantifying Uncertainty and Reallocating Credibility",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-05.html#learning-objectives",
+    "href": "modules/Module-05.html#learning-objectives",
+    "title": "Module 05: Quantifying Uncertainty and Reallocating Credibility",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-05.html#module-topics",
+    "href": "modules/Module-05.html#module-topics",
+    "title": "Module 05: Quantifying Uncertainty and Reallocating Credibility",
+    "section": "Module Topics",
+    "text": "Module Topics"
+  },
+  {
+    "objectID": "modules/Module-05.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-05.html#assigned-reading-lecture-slides",
+    "title": "Module 05: Quantifying Uncertainty and Reallocating Credibility",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nQuantifying Uncertainty and Reallocating Credibility\nModule 5 Slides"
+  },
+  {
+    "objectID": "modules/Module-05.html#lab",
+    "href": "modules/Module-05.html#lab",
+    "title": "Module 05: Quantifying Uncertainty and Reallocating Credibility",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-05.html#recommended-additional-resources",
+    "href": "modules/Module-05.html#recommended-additional-resources",
+    "title": "Module 05: Quantifying Uncertainty and Reallocating Credibility",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-05.html#references",
+    "href": "modules/Module-05.html#references",
+    "title": "Module 05: Quantifying Uncertainty and Reallocating Credibility",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-03.html",
+    "href": "modules/Module-03.html",
+    "title": "Module 03: Foundations of Causal and Generative Models",
+    "section": "",
+    "text": "“No causes in, no causes out!” - Nancy (cartwright1989nature?), Nature’s Capacities and Their Measurement. Oxford: Clarendon Press."
+  },
+  {
+    "objectID": "modules/Module-03.html#learning-objectives",
+    "href": "modules/Module-03.html#learning-objectives",
+    "title": "Module 03: Foundations of Causal and Generative Models",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\n\n\n\n\n\nBy the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-03.html#module-topics",
+    "href": "modules/Module-03.html#module-topics",
+    "title": "Module 03: Foundations of Causal and Generative Models",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nWe Can Do Better Than the Status Quo!\n\nCentring Causality and Uncertainty with Causal and Bayesian Inference\n\nWhat are models? What is Causal Inference?\n\nMaking Our Assumptions Explicit (Part 1): Graphical Models\n\nWhat is Bayesian Inference?\n\nCounting and the Reallocation of Credibility Across All Possibilities\n\nConceptual Causal Models Come First, Statistical Models Come Second"
+  },
+  {
+    "objectID": "modules/Module-03.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-03.html#assigned-reading-lecture-slides",
+    "title": "Module 03: Foundations of Causal and Generative Models",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nFoundations of Causal and Generative Models\nModule 3 Slides"
+  },
+  {
+    "objectID": "modules/Module-03.html#lab",
+    "href": "modules/Module-03.html#lab",
+    "title": "Module 03: Foundations of Causal and Generative Models",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-03.html#recommended-additional-resources",
+    "href": "modules/Module-03.html#recommended-additional-resources",
+    "title": "Module 03: Foundations of Causal and Generative Models",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-03.html#references",
+    "href": "modules/Module-03.html#references",
+    "title": "Module 03: Foundations of Causal and Generative Models",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-01.html",
+    "href": "modules/Module-01.html",
+    "title": "Module 01: Introduction",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-01.html#learning-objectives",
+    "href": "modules/Module-01.html#learning-objectives",
+    "title": "Module 01: Introduction",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-01.html#module-topics",
+    "href": "modules/Module-01.html#module-topics",
+    "title": "Module 01: Introduction",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nPersonal Introductions + Learning Goals\n\nTeaching Modelling and Quantitative Data Analysis: What’s Wrong with the Status Quo?\n\nThe Status Quo\nStatistical Golems\nNull Hypothesis Significance Testing (NHST)\nBad Controls\nTransparency and Accountability, Reproducibility, Ethics\n\nWe Can Do Better!\n\nStatistical Problem Solving; Probabilistic, Systems, and Futures Thinking\nPrior Knowledge; Causal Models and Good Controls\nReproducible Research and Model-based Data Analysis\n\nOverview of Course Topics, Learning Objectives, Assessment Methods, and Software"
+  },
+  {
+    "objectID": "modules/Module-01.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-01.html#assigned-reading-lecture-slides",
+    "title": "Module 01: Introduction",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nIntroduction\nModule 1 Slides"
+  },
+  {
+    "objectID": "modules/Module-01.html#lab",
+    "href": "modules/Module-01.html#lab",
+    "title": "Module 01: Introduction",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-01.html#recommended-additional-resources",
+    "href": "modules/Module-01.html#recommended-additional-resources",
+    "title": "Module 01: Introduction",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-01.html#references",
+    "href": "modules/Module-01.html#references",
+    "title": "Module 01: Introduction",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "labs/notebooks/8-thematic-analysis-topic-models-2.html",
+    "href": "labs/notebooks/8-thematic-analysis-topic-models-2.html",
+    "title": "Summarization, Thematic Analysis, and Topic Models (II)",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "Labs",
+      "Summarization, Thematic Analysis, and Topic Models (II)"
+    ]
+  },
+  {
+    "objectID": "labs/notebooks/6-text-analysis-mixed-methods.html",
+    "href": "labs/notebooks/6-text-analysis-mixed-methods.html",
+    "title": "Text Analysis - Qualitative and Quantitative Methods",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "Labs",
+      "Text Analysis - Qualitative and Quantitative Methods"
+    ]
+  },
+  {
+    "objectID": "labs/notebooks/4-echo-chambers-1.html",
+    "href": "labs/notebooks/4-echo-chambers-1.html",
+    "title": "Echo Chambers in Interaction and Discussion Networks (I)",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "Labs",
+      "Echo Chambers in Interaction and Discussion Networks (I)"
+    ]
+  },
+  {
+    "objectID": "labs/notebooks/2-collecting-data-apis.html",
+    "href": "labs/notebooks/2-collecting-data-apis.html",
+    "title": "Collecting Data from Social Media APIs",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "Labs",
+      "Collecting Data from Social Media APIs"
+    ]
+  },
+  {
+    "objectID": "labs/notebooks/11-political-ideologies-belief-networks-1.html",
+    "href": "labs/notebooks/11-political-ideologies-belief-networks-1.html",
+    "title": "Political Ideologies and Belief Networks (I)",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "Labs",
+      "Political Ideologies and Belief Networks (I)"
+    ]
+  },
+  {
+    "objectID": "labs/notebooks/1-introduction.html",
+    "href": "labs/notebooks/1-introduction.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "Labs",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data, Methods, and Models for Future Cities",
+    "section": "",
+    "text": "You can learn a bit more about me and my approach to teaching modelling and quantiative data analysis here."
+  },
+  {
+    "objectID": "index.html#the-master-of-future-cities-mfc-program",
+    "href": "index.html#the-master-of-future-cities-mfc-program",
+    "title": "Data, Methods, and Models for Future Cities",
+    "section": "The Master of Future Cities (MFC) Program",
+    "text": "The Master of Future Cities (MFC) Program\n\n\n\n\n\n\nThe Future is Unknown\n\n\n\n“The traditional approaches to studying, planning, managing, and visioning our cities are arguably struggling to address our challenges today and lack the capacity to critically explore and develop alternatives for a future city. There is need to move beyond the silos within cities and disciplinary boundaries to foster multidisciplinary and transdisciplinary thinking applied to urban challenges and futures.”\nLearn more about the program here.\n\n\n\n\n\n(Image from Michael Betancourt.)"
+  },
+  {
+    "objectID": "labs/index.html",
+    "href": "labs/index.html",
+    "title": "Preface",
+    "section": "",
+    "text": "Preface\n\nConnection to @mclevey2022doing…\n\n\n\n\n\n\n\nThis is a Manuscript in Progress\n\n\n\n\nWhat to expect\n\nHow to give feedback\n\n\n\n\n\n\nEverything is not fine with the way we teach and practice statistics in the sciences. We can all do better.\n\n\n\n\n\nEverything is not fine with the way we teach and practice statistics in the sciences. We can all do better.",
+    "crumbs": [
+      "Labs",
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "labs/notebooks/10-affect-emotion-sentiment-analysis-2.html",
+    "href": "labs/notebooks/10-affect-emotion-sentiment-analysis-2.html",
+    "title": "Affect, Emotion, and Sentiment Analysis (II)",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "Labs",
+      "Affect, Emotion, and Sentiment Analysis (II)"
+    ]
+  },
+  {
+    "objectID": "labs/notebooks/12-political-ideologies-belief-networks-2.html",
+    "href": "labs/notebooks/12-political-ideologies-belief-networks-2.html",
+    "title": "Political Ideologies and Belief Networks (II)",
+    "section": "",
+    "text": "Coming soon…\n\nReferences",
+    "crumbs": [
+      "Labs",
+      "Political Ideologies and Belief Networks (II)"
+    ]
+  },
+  {
+    "objectID": "labs/notebooks/3-collecting-data-scraping-spidering.html",
+    "href": "labs/notebooks/3-collecting-data-scraping-spidering.html",
+    "title": "Scraping and Spidering the Web",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "Labs",
+      "Scraping and Spidering the Web"
+    ]
+  },
+  {
+    "objectID": "labs/notebooks/5-echo-chambers-2.html",
+    "href": "labs/notebooks/5-echo-chambers-2.html",
+    "title": "Echo Chambers in Interaction and Discussion Networks (II)",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "Labs",
+      "Echo Chambers in Interaction and Discussion Networks (II)"
+    ]
+  },
+  {
+    "objectID": "labs/notebooks/7-thematic-analysis-topic-models-1.html",
+    "href": "labs/notebooks/7-thematic-analysis-topic-models-1.html",
+    "title": "Summarization, Thematic Analysis, and Topic Models (I)",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "Labs",
+      "Summarization, Thematic Analysis, and Topic Models (I)"
+    ]
+  },
+  {
+    "objectID": "labs/notebooks/9-affect-emotion-sentiment-analysis-1.html",
+    "href": "labs/notebooks/9-affect-emotion-sentiment-analysis-1.html",
+    "title": "Affect, Emotion, and Sentiment Analysis (I)",
+    "section": "",
+    "text": "Coming soon…",
+    "crumbs": [
+      "Labs",
+      "Affect, Emotion, and Sentiment Analysis (I)"
+    ]
+  },
+  {
+    "objectID": "modules/Module-02.html",
+    "href": "modules/Module-02.html",
+    "title": "Module 02: Scientific Computing and Reproducible Research",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-02.html#learning-objectives",
+    "href": "modules/Module-02.html#learning-objectives",
+    "title": "Module 02: Scientific Computing and Reproducible Research",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-02.html#module-topics",
+    "href": "modules/Module-02.html#module-topics",
+    "title": "Module 02: Scientific Computing and Reproducible Research",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nBasics of Data Summary and Visualization with Python"
+  },
+  {
+    "objectID": "modules/Module-02.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-02.html#assigned-reading-lecture-slides",
+    "title": "Module 02: Scientific Computing and Reproducible Research",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nScientific Computing and Reproducible Research\nModule 2 Slides"
+  },
+  {
+    "objectID": "modules/Module-02.html#lab",
+    "href": "modules/Module-02.html#lab",
+    "title": "Module 02: Scientific Computing and Reproducible Research",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-02.html#recommended-additional-resources",
+    "href": "modules/Module-02.html#recommended-additional-resources",
+    "title": "Module 02: Scientific Computing and Reproducible Research",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-02.html#references",
+    "href": "modules/Module-02.html#references",
+    "title": "Module 02: Scientific Computing and Reproducible Research",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-04.html",
+    "href": "modules/Module-04.html",
+    "title": "Module 04: Foundations of Probabilistic Programming",
+    "section": "",
+    "text": "“No causes in, no causes out!” - Nancy (cartwright1989nature?), Nature’s Capacities and Their Measurement. Oxford: Clarendon Press."
+  },
+  {
+    "objectID": "modules/Module-04.html#learning-objectives",
+    "href": "modules/Module-04.html#learning-objectives",
+    "title": "Module 04: Foundations of Probabilistic Programming",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\n\n\n\n\n\nBy the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-04.html#module-topics",
+    "href": "modules/Module-04.html#module-topics",
+    "title": "Module 04: Foundations of Probabilistic Programming",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nWe Can Do Better Than the Status Quo!\n\nCentring Causality and Uncertainty with Causal and Bayesian Inference\n\nWhat are models? What is Causal Inference?\n\nMaking Our Assumptions Explicit (Part 1): Graphical Models\n\nWhat is Bayesian Inference?\n\nCounting and the Reallocation of Credibility Across All Possibilities\n\nConceptual Causal Models Come First, Statistical Models Come Second"
+  },
+  {
+    "objectID": "modules/Module-04.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-04.html#assigned-reading-lecture-slides",
+    "title": "Module 04: Foundations of Probabilistic Programming",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nFoundations of Probabilistic Programming\nModule 4 Slides"
+  },
+  {
+    "objectID": "modules/Module-04.html#lab",
+    "href": "modules/Module-04.html#lab",
+    "title": "Module 04: Foundations of Probabilistic Programming",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-04.html#recommended-additional-resources",
+    "href": "modules/Module-04.html#recommended-additional-resources",
+    "title": "Module 04: Foundations of Probabilistic Programming",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-04.html#references",
+    "href": "modules/Module-04.html#references",
+    "title": "Module 04: Foundations of Probabilistic Programming",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-06.html",
+    "href": "modules/Module-06.html",
+    "title": "Module 06: Automating Inference via Stochastic Sampling",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-06.html#learning-objectives",
+    "href": "modules/Module-06.html#learning-objectives",
+    "title": "Module 06: Automating Inference via Stochastic Sampling",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-06.html#module-topics",
+    "href": "modules/Module-06.html#module-topics",
+    "title": "Module 06: Automating Inference via Stochastic Sampling",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nBasics of Data Summary and Visualization with Python"
+  },
+  {
+    "objectID": "modules/Module-06.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-06.html#assigned-reading-lecture-slides",
+    "title": "Module 06: Automating Inference via Stochastic Sampling",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nAutomating Inference via Stochastic Sampling\nModule 6 Slides"
+  },
+  {
+    "objectID": "modules/Module-06.html#lab",
+    "href": "modules/Module-06.html#lab",
+    "title": "Module 06: Automating Inference via Stochastic Sampling",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-06.html#recommended-additional-resources",
+    "href": "modules/Module-06.html#recommended-additional-resources",
+    "title": "Module 06: Automating Inference via Stochastic Sampling",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-06.html#references",
+    "href": "modules/Module-06.html#references",
+    "title": "Module 06: Automating Inference via Stochastic Sampling",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-08.html",
+    "href": "modules/Module-08.html",
+    "title": "Module 08: Hierarchical Regression",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-08.html#learning-objectives",
+    "href": "modules/Module-08.html#learning-objectives",
+    "title": "Module 08: Hierarchical Regression",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-08.html#module-topics",
+    "href": "modules/Module-08.html#module-topics",
+    "title": "Module 08: Hierarchical Regression",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nBasics of Data Summary and Visualization with Python"
+  },
+  {
+    "objectID": "modules/Module-08.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-08.html#assigned-reading-lecture-slides",
+    "title": "Module 08: Hierarchical Regression",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nHierarchical Regression\nModule 8 Slides"
+  },
+  {
+    "objectID": "modules/Module-08.html#lab",
+    "href": "modules/Module-08.html#lab",
+    "title": "Module 08: Hierarchical Regression",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-08.html#recommended-additional-resources",
+    "href": "modules/Module-08.html#recommended-additional-resources",
+    "title": "Module 08: Hierarchical Regression",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-08.html#references",
+    "href": "modules/Module-08.html#references",
+    "title": "Module 08: Hierarchical Regression",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-10.html",
+    "href": "modules/Module-10.html",
+    "title": "Module 10: Modelling Network Structure and Dynamics",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-10.html#learning-objectives",
+    "href": "modules/Module-10.html#learning-objectives",
+    "title": "Module 10: Modelling Network Structure and Dynamics",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-10.html#module-topics",
+    "href": "modules/Module-10.html#module-topics",
+    "title": "Module 10: Modelling Network Structure and Dynamics",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nBasics of Data Summary and Visualization with Python"
+  },
+  {
+    "objectID": "modules/Module-10.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-10.html#assigned-reading-lecture-slides",
+    "title": "Module 10: Modelling Network Structure and Dynamics",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nModelling Network Structure and Dynamics\nModule 10 Slides"
+  },
+  {
+    "objectID": "modules/Module-10.html#lab",
+    "href": "modules/Module-10.html#lab",
+    "title": "Module 10: Modelling Network Structure and Dynamics",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-10.html#recommended-additional-resources",
+    "href": "modules/Module-10.html#recommended-additional-resources",
+    "title": "Module 10: Modelling Network Structure and Dynamics",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-10.html#references",
+    "href": "modules/Module-10.html#references",
+    "title": "Module 10: Modelling Network Structure and Dynamics",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "modules/Module-12.html",
+    "href": "modules/Module-12.html",
+    "title": "Module 12: Conclusion",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-12.html#learning-objectives",
+    "href": "modules/Module-12.html#learning-objectives",
+    "title": "Module 12: Conclusion",
+    "section": "",
+    "text": "By the end of the course module, students will be able to:\n\n\n\n\n\n\nComing soon…\nComing soon…\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-12.html#module-topics",
+    "href": "modules/Module-12.html#module-topics",
+    "title": "Module 12: Conclusion",
+    "section": "Module Topics",
+    "text": "Module Topics\n\nResearch Computing Setup\n\nVS Code, Jupyter, Quarto, and Git (+ GitHub)\nHow and When to (Not) Use LLMs for Coding and Data Analysis Help\n\nBasics of Data Summary and Visualization with Python"
+  },
+  {
+    "objectID": "modules/Module-12.html#assigned-reading-lecture-slides",
+    "href": "modules/Module-12.html#assigned-reading-lecture-slides",
+    "title": "Module 12: Conclusion",
+    "section": "Assigned Reading + Lecture Slides",
+    "text": "Assigned Reading + Lecture Slides\n\nConclusion\nModule 12 Slides"
+  },
+  {
+    "objectID": "modules/Module-12.html#lab",
+    "href": "modules/Module-12.html#lab",
+    "title": "Module 12: Conclusion",
+    "section": "Lab",
+    "text": "Lab\nComing soon…\n\nQuestions, Tasks, and Challenges\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-12.html#recommended-additional-resources",
+    "href": "modules/Module-12.html#recommended-additional-resources",
+    "title": "Module 12: Conclusion",
+    "section": "Recommended Additional Resources",
+    "text": "Recommended Additional Resources\n\nComing soon…"
+  },
+  {
+    "objectID": "modules/Module-12.html#references",
+    "href": "modules/Module-12.html#references",
+    "title": "Module 12: Conclusion",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "pages/resources.html",
+    "href": "pages/resources.html",
+    "title": "Additional Resources",
+    "section": "",
+    "text": "Coming soon…"
+  },
+  {
+    "objectID": "pages/syllabus.html",
+    "href": "pages/syllabus.html",
+    "title": "Web-based and Social Media Research Methods",
+    "section": "",
+    "text": "Instructor Information\n\n\n\nDr. John McLevey (he/him)\nKnowledge Integration, Sociology & Legal Studies\nUniversity of Waterloo\nEmail: john.mclevey@uwaterloo.ca\nOffice Hours: Mondays, 1:00 - 4:00 pm or by appointment\nOffice: EV1-215, University of Waterloo"
+  },
+  {
+    "objectID": "pages/syllabus.html#course-description",
+    "href": "pages/syllabus.html#course-description",
+    "title": "Web-based and Social Media Research Methods",
+    "section": "Course Description",
+    "text": "Course Description\nThis course is an introduction to social media and web-based research methods for social scientists. It has two overarching goals: (1) to introduce students to cutting-edge social and political research, with an emphasis on social influence, disinformation and manipulation, political opinions, and the use of social media and other communications technologies by states and social movements; and (2) to help students develop a foundational skillset in collecting, processing, and analysing social media and web-based data."
+  },
+  {
+    "objectID": "pages/syllabus.html#required-books",
+    "href": "pages/syllabus.html#required-books",
+    "title": "Web-based and Social Media Research Methods",
+    "section": "Required Books",
+    "text": "Required Books\nWe will read the following 4 books over the course of the semester. See the Course Schedule for details on weekly reading assignments.\n\nZeynep Tufekci (2017), Twitter and Tear Gas: The Power and Fragility of Networked Protest\nMolly Roberts (2018), Censored: Distraction and Diversion Insider China’s Great Firewall\nChris Bail (2022), Breaking the Social Media Prism: How to Make Our Platforms Less Polarizing\nPhilip Howard (2020), Lie Machines: How to Save Democracy from Troll Armies, Deceitful Robots, Junk News Operations, and Political Operatives"
+  },
+  {
+    "objectID": "pages/syllabus.html#research-software",
+    "href": "pages/syllabus.html#research-software",
+    "title": "Web-based and Social Media Research Methods",
+    "section": "Research Software",
+    "text": "Research Software\nThis course will use the programming language Python to collect, process, and analyze social media data. While some previous experience with programming is beneficial, it is not required or assumed. You will have access to all code I present in lab sessions, and you will not be expected to write your own code (although you are welcome to do so).1"
+  },
+  {
+    "objectID": "pages/syllabus.html#assessment",
+    "href": "pages/syllabus.html#assessment",
+    "title": "Web-based and Social Media Research Methods",
+    "section": "Assessment",
+    "text": "Assessment\n\nMidterm and Final Exam\n2 Posts on the Course Blog\n\n1 conceptual / reading response\n1 data analysis"
+  },
+  {
+    "objectID": "pages/syllabus.html#course-schedule",
+    "href": "pages/syllabus.html#course-schedule",
+    "title": "Web-based and Social Media Research Methods",
+    "section": "Course Schedule",
+    "text": "Course Schedule\nAll content linked below can also be accessed from the menu at the top of the course website.\n\n\n\n\nTopic\nAssigned Reading\n\n\n\n\nModule 01 (LEC)\nIntroduction to the Course; Ethics, Politics, and Privacy\n\n\n\nModule 01 (LAB)\nIntroduction to Computing and Data Analysis\n\n\n\nModule 02 (LEC)\nEcho Chambers, Filter Bubbles, and Polarization\nBail pages 1-40\n\n\nModule 02 (LAB)\nCollecting Data from Social Media APIs\n\n\n\nModule 03 (LEC)\nEcho Chambers, Filter Bubbles, and Polarization\nBail pages 41-83\n\n\nModule 03 (LAB)\nScraping and Spidering the Web\n\n\n\nModule 04 (LEC)\nEcho Chambers, Filter Bubbles, and Polarization\nBail pages 84-132\n\n\nModule 04 (LAB)\nEcho Chambers in Interaction and Discussion Networks (I)\n\n\n\nModule 05 (LEC)\nSocial Media and State Censorship\nRoberts pages 1-92\n\n\nModule 05 (LAB)\nEcho Chambers in Interaction and Discussion Networks (II)\n\n\n\nModule 06 (LEC)\nSocial Media and State Censorship\nRoberts pages 93-187\n\n\nModule 06 (LAB)\nText Analysis - Qualitative and Quantitative Methods\n\n\n\nModule 07 (LEC)\nSocial Media and State Censorship\nRoberts pages 190-240\n\n\nModule 07 (LAB)\nSummarization, Thematic Analysis, and Topic Models (I)\n\n\n\nModule 08 (LEC)\nCensorship, Social Networks, and Movement Cultures\nTufecki pages 1-114\n\n\nModule 08 (LAB)\nSummarization, Thematic Analysis, and Topic Models (II)\n\n\n\nModule 09 (LEC)\nTools for Protest: Technology and Social Media\nTufecki pages 115-188\n\n\nModule 09 (LAB)\nAffect, Emotion, and Sentiment Analysis (I)\n\n\n\nModule 10 (LEC)\nOutcomes After Protest\nTufecki pages 189-277\n\n\nModule 10 (LAB)\nAffect, Emotion, and Sentiment Analysis (II)\n\n\n\nModule 11 (LEC)\nDisinformation and the Science and Technology of Lie Machines\nHoward pages 1-81\n\n\nModule 11 (LAB)\nPolitical Ideologies and Belief Networks (I)\n\n\n\nModule 12 (LEC)\nMedia, Social Media, Democracy, and Dictatorship\nHoward pages 82-170\n\n\nModule 12 (LAB)\nPolitical Ideologies and Belief Networks (II)"
+  },
+  {
+    "objectID": "pages/syllabus.html#footnotes",
+    "href": "pages/syllabus.html#footnotes",
+    "title": "Web-based and Social Media Research Methods",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nStudents who want to learn more about Python programming for research may be interested in INTEG 440 – Computational Social Science.↩︎"
+  },
+  {
+    "objectID": "slides/Slides-02.html#coming-soon",
+    "href": "slides/Slides-02.html#coming-soon",
+    "title": "Echo Chambers, Filter Bubbles, and Polarization",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/social-media-web-based-research/"
+  },
+  {
+    "objectID": "slides/Slides-04.html#coming-soon",
+    "href": "slides/Slides-04.html#coming-soon",
+    "title": "Echo Chambers, Filter Bubbles, and Polarization",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/social-media-web-based-research/"
+  },
+  {
+    "objectID": "slides/Slides-06.html#coming-soon",
+    "href": "slides/Slides-06.html#coming-soon",
+    "title": "Social Media and State Censorship",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/social-media-web-based-research/"
+  },
+  {
+    "objectID": "slides/Slides-08.html#coming-soon",
+    "href": "slides/Slides-08.html#coming-soon",
+    "title": "Censorship, Social Networks, and Movement Cultures",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/social-media-web-based-research/"
+  },
+  {
+    "objectID": "slides/Slides-10.html#coming-soon",
+    "href": "slides/Slides-10.html#coming-soon",
+    "title": "Outcomes After Protest",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/social-media-web-based-research/"
+  },
+  {
+    "objectID": "slides/Slides-12.html#coming-soon",
+    "href": "slides/Slides-12.html#coming-soon",
+    "title": "Media, Social Media, Democracy, and Dictatorship",
+    "section": "Coming soon…",
+    "text": "Coming soon…\n\n\n\n\nhttps://www.johnmclevey.com/social-media-web-based-research/"
+  }
+]

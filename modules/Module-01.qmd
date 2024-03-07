@@ -1,0 +1,115 @@
+---
+title: "Module 01: Introduction"
+subtitle: "FCIT 607: Data, Methods, and Models for Future Cities"
+author: "John McLevey"
+date-modified: last-modified
+description: "Due Date: XX-XX-XXXX <br>"
+abstract: "This learning module ..."
+abstract-title: "Module Summary"
+keywords: uncertainty, probabilistic thinking, systems thinking, futures thinking, causal models, generative models, reproducible research
+repo-url: https://github.com/mclevey/data-methods-models/
+repo-branch: master
+repo-actions: [edit, issue, source]
+sharing: [twitter, facebook, linkedin]
+bibliography: "../labs/references.bib"
+csl: "../labs/apsa.csl"
+citations-hover: true
+footnotes-hover: true
+strip-comments: true
+pdf-engine: xelatex
+format:
+  html:
+    toc: true
+    html-math-method: katex
+    favicon: logo.png
+    email-obfuscation: javascript
+    fig-align: left
+    fig-format: svg
+    lightbox: true
+    code-fold: false
+    code-overflow: scroll
+    code-line-numbers: false
+    code-copy: hover
+    code-block-border-left: gray 
+    code-block-bg: slate
+    link-external-newwindow: true
+    execute:
+      echo: true
+      warning: false
+      cache: true
+      freeze: true
+  pdf:
+    keep-tex: false
+    documentclass: report
+    classoption: [onecolumn, portrait] # [twocolumn, landscape]
+    papersize: A4
+    toc: true
+    toc-depth: 3
+    toc-title: Module Overview
+    lof: false
+    lot: false
+    number-sections: false
+    colorlinks: true
+    mainfont: Minion Pro
+    monofont: Menlo
+    sansfont: Helvetica Neue
+    highlight-style: github
+    code-block-border-left: gray
+    code-block-bg: "#f5f6f7"
+    fig-align: left
+    fig-format: pdf
+    indent: true
+    execute:
+      echo: true
+      warning: false
+      cache: true
+      freeze: true
+    geometry:
+      - top=30mm
+      - left=20mm
+      - right=60mm
+      - heightrounded
+---
+
+## Learning Objectives
+
+:::{.callout-note collapse="false"}
+## By the end of the course module, students will be able to: 
+1. Coming soon...
+2. Coming soon...
+3. Coming soon...
+:::
+
+## Module Topics
+
+- Personal Introductions + Learning Goals   
+- Teaching Modelling and Quantitative Data Analysis: What's Wrong with the Status Quo? 
+  - The Status Quo
+  - Statistical Golems
+  - Null Hypothesis Significance Testing (NHST)
+  - *Bad* Controls
+  - Transparency and Accountability, Reproducibility, Ethics
+- We Can Do Better!
+  - Statistical Problem Solving; Probabilistic, Systems, and Futures Thinking
+  - Prior Knowledge; Causal Models and *Good* Controls
+  - Reproducible Research and Model-based Data Analysis
+- Overview of Course Topics, Learning Objectives, Assessment Methods, and Software
+
+## Assigned Reading + Lecture Slides
+
+- [Introduction](../../labs/chapters/1-introduction.qmd)
+- [Module 1 Slides](../../slides/Slides-01.qmd)
+
+## Lab
+
+Coming soon...
+
+### Questions, Tasks, and Challenges
+
+Coming soon...
+
+## Recommended Additional Resources
+
+- Coming soon...
+
+## References

@@ -1,0 +1,112 @@
+---
+title: "Module 03: Foundations of Causal and Generative Models"
+subtitle: "FCIT 607: Data, Methods, and Models for Future Cities"
+author: "John McLevey"
+date-modified: last-modified
+description: "Due Date: XX-XX-XXXX <br>"
+abstract: "This learning module ..."
+abstract-title: "Module Summary"
+keywords: XXXXXX
+repo-url: https://github.com/mclevey/data-methods-models/
+repo-branch: master
+repo-actions: [edit, issue, source]
+sharing: [twitter, facebook, linkedin]
+bibliography: "../labs/references.bib"
+csl: "../labs/apsa.csl"
+citations-hover: true
+footnotes-hover: true
+strip-comments: true
+pdf-engine: xelatex
+format:
+  html:
+    toc: true
+    html-math-method: katex
+    favicon: logo.png
+    email-obfuscation: javascript
+    fig-align: left
+    fig-format: svg
+    lightbox: true
+    code-fold: false
+    code-overflow: scroll
+    code-line-numbers: false
+    code-copy: hover
+    code-block-border-left: gray 
+    code-block-bg: slate
+    link-external-newwindow: true
+    execute:
+      echo: true
+      warning: false
+      cache: true
+      freeze: true
+  pdf:
+    keep-tex: false
+    documentclass: report
+    classoption: [onecolumn, portrait] # [twocolumn, landscape]
+    papersize: A4
+    toc: true
+    toc-depth: 3
+    toc-title: Module Overview
+    lof: false
+    lot: false
+    number-sections: false
+    colorlinks: true
+    mainfont: Minion Pro
+    monofont: Menlo
+    sansfont: Helvetica Neue
+    highlight-style: github
+    code-block-border-left: gray
+    code-block-bg: "#f5f6f7"
+    fig-align: left
+    fig-format: pdf
+    execute:
+      echo: true
+      warning: false
+      cache: true
+      freeze: true
+    geometry:
+      - top=30mm
+      - left=20mm
+      - right=60mm
+      - heightrounded
+---
+
+> “No causes in, no causes out!”
+> - Nancy @cartwright1989nature, *Nature's Capacities and Their Measurement*. Oxford: Clarendon Press.
+
+## Learning Objectives
+
+:::{.callout-note collapse="false"}
+## By the end of the course module, students will be able to: 
+1. Coming soon...
+2. Coming soon...
+3. Coming soon...
+:::
+
+## Module Topics
+
+- We Can Do Better Than the Status Quo! 
+	- Centring Causality and Uncertainty with Causal and Bayesian Inference
+- What are models? What is Causal Inference? 
+  - Making Our Assumptions Explicit (Part 1): Graphical Models
+- What is Bayesian Inference? 
+	- Counting and the Reallocation of Credibility Across All Possibilities
+- Conceptual Causal Models Come First, Statistical Models Come Second
+
+## Assigned Reading + Lecture Slides
+
+- [Foundations of Causal and Generative Models](../../labs/chapters/3-causal-generative-models.qmd)
+- [Module 3 Slides](../../slides/Slides-03.qmd)
+
+## Lab
+
+Coming soon...
+
+### Questions, Tasks, and Challenges
+
+Coming soon...
+
+## Recommended Additional Resources
+
+- Coming soon...
+
+## References

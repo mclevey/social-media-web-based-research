@@ -1,0 +1,117 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "*.ipynb"
+  output-dir: docs
+  resources:
+    - "images/"
+    - "slides/"
+    - "labs/book/"
+
+website:
+  site-url: "https://www.johnmclevey.com/social-media-web-based-research/"
+  # google-analytics: # EXAMPLE: "G-3Z3Z3Z3Z3Z3"
+  
+  repo-url: https://github.com/mclevey/social-media-web-based-research/
+  repo-actions: [edit, issue, source]
+  open-graph: true
+
+  title: "Web-based and Social Media Research Methods"
+  navbar:
+    logo: images/logo.png
+    title: false
+    align: center
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Syllabus"
+        file: pages/syllabus.qmd
+      - text: "Instructor"
+        file: pages/about.qmd
+      - text: "Labs"
+        file: labs/index.qmd
+      - text: "Software"
+        file: pages/software.qmd
+      - text: "Modules"
+        menu:
+          - text: Module 01
+            href: modules/Module-01.qmd
+          - text: Module 02
+            href: modules/Module-02.qmd
+          - text: Module 03
+            href: modules/Module-03.qmd
+          - text: Module 04
+            href: modules/Module-04.qmd
+          - text: Module 05
+            href: modules/Module-05.qmd
+          - text: Module 06
+            href: modules/Module-06.qmd
+          - text: Module 07
+            href: modules/Module-07.qmd
+          - text: Module 08
+            href: modules/Module-08.qmd
+          - text: Module 09
+            href: modules/Module-09.qmd
+          - text: Module 10
+            href: modules/Module-10.qmd
+          - text: Module 11
+            href: modules/Module-11.qmd
+          - text: Module 12
+            href: modules/Module-12.qmd
+      - text: "Slides"
+        menu:
+          - text: Module 01 Slides
+            href: slides/Slides-01.html
+          - text: Module 02 Slides
+            href: slides/Slides-02.html
+          - text: Module 03 Slides
+            href: slides/Slides-03.html
+          - text: Module 04 Slides
+            href: slides/Slides-04.html
+          - text: Module 05 Slides
+            href: slides/Slides-05.html
+          - text: Module 06 Slides
+            href: slides/Slides-06.html
+          - text: Module 07 Slides
+            href: slides/Slides-07.html
+          - text: Module 08 Slides
+            href: slides/Slides-08.html
+          - text: Module 09 Slides
+            href: slides/Slides-09.html
+          - text: Module 10 Slides
+            href: slides/Slides-10.html
+          - text: Module 11 Slides
+            href: slides/Slides-11.html
+          - text: Module 12 Slides
+            href: slides/Slides-12.html
+      - text: "Additional Resources"
+        file: pages/resources.qmd
+    right: 
+      - text: "License"
+        file: LICENSE.md
+      - icon: github
+        href: https://github.com/mclevey/social-media-web-based-research/
+        aria-label: GitHub
+  sidebar:
+    - title: "Labs"
+      logo: ../images/cover.png
+      contents:
+        - labs/index.qmd
+        - labs/notebooks/1-introduction.qmd
+        - labs/notebooks/2-collecting-data-apis.qmd
+        - labs/notebooks/3-collecting-data-scraping-spidering.qmd
+        - labs/notebooks/4-echo-chambers-1.qmd
+        - labs/notebooks/5-echo-chambers-2.qmd
+        - labs/notebooks/6-text-analysis-mixed-methods.qmd
+        - labs/notebooks/7-thematic-analysis-topic-models-1.qmd
+        - labs/notebooks/8-thematic-analysis-topic-models-2.qmd
+        - labs/notebooks/9-affect-emotion-sentiment-analysis-1.qmd
+        - labs/notebooks/10-affect-emotion-sentiment-analysis-2.qmd
+        - labs/notebooks/11-political-ideologies-belief-networks-1.qmd
+        - labs/notebooks/12-political-ideologies-belief-networks-2.qmd
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

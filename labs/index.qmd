@@ -1,0 +1,17 @@
+---
+author: John McLevey
+date: 06/22/2023
+date-modified: last-modified
+---
+
+# Preface {.unnumbered}
+
+- Connection to @mclevey2022doing...
+
+:::{.callout-warning}
+## This is a Manuscript in Progress
+- What to expect   
+- How to give feedback
+:::
+
+![Everything is not fine with the way we teach and practice statistics in the sciences. We can all do better.](../images/everything-is-fine.jpg){fig-align="left" width=70% .lightbox}

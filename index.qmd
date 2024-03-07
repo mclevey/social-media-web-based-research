@@ -1,0 +1,23 @@
+---
+title: "Data, Methods, and Models for Future Cities"
+description: "An open access graduate-level course in model-based data analysis from a Bayesian perspective."
+title-block-style: none
+toc: false
+---
+
+::: {layout="[[30, 70], [100]]"}
+![(Image from Michael Betancourt.)](images/Michael-Betancourt-Probabilistic-Programming.png){.lightbox}
+
+Welcome to the course website for FCIT 607: Data, Methods, and Models for Future Cities! This couse is a graduate-level introduction to reproducible research, modelling, and quantitative data analysis with an emphasis on causal, probabilistic, and futures thinking. It's part of the [Master of Future Cities (MFC)](https://uwaterloo.ca/environment/graduate/future-graduate-students/programs/master-future-cities?utm_source=envgradgoogleads&utm_medium=cpc&utm_id=4119&gad_source=1&gclid=Cj0KCQiAxOauBhCaARIsAEbUSQSj4EocKfVTTNc6pCwICYJRndRkEXXvTElfnG4gFBuPJLaQ8T-0eu8aApMzEALw_wcB) program offered by the [Faculty of Environment](https://uwaterloo.ca/environment/) at the [University of Waterloo](https://uwaterloo.ca). You can access all course materials on this site [for free](https://en.wikipedia.org/wiki/Open_educational_resources), including the course syllabus, overviews of each learning module, lecture slides, and an open access textbook (*currently in draft form*).
+:::
+
+You can learn a bit more about me and my approach to teaching modelling and quantiative data analysis [here](pages/about.qmd).
+
+## The Master of Future Cities (MFC) Program
+
+:::{.callout-note}
+## The Future is Unknown
+"The traditional approaches to studying, planning, managing, and visioning our cities are arguably struggling to address our challenges today and lack the capacity to critically explore and develop alternatives for a future city. There is need to move beyond the silos within cities and disciplinary boundaries to foster multidisciplinary and transdisciplinary thinking applied to urban challenges and futures."
+
+**Learn more about the program [here](https://uwaterloo.ca/environment/graduate/future-graduate-students/programs/master-future-cities?utm_source=envgradgoogleads&utm_medium=cpc&utm_id=4119&gad_source=1&gclid=Cj0KCQiAxOauBhCaARIsAEbUSQSj4EocKfVTTNc6pCwICYJRndRkEXXvTElfnG4gFBuPJLaQ8T-0eu8aApMzEALw_wcB).**
+:::

@@ -1,0 +1,51 @@
+/*-- scss:defaults --*/
+$theme-darkgreen: #2A6A6C;
+$theme-gold: #FDC435;
+$theme-white: #F7F8F9;
+$theme-yellow: #F4BA02;
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+$body-bg: $theme-darkgreen;
+$body-color: $theme-white;
+$link-color: $theme-gold;
+
+$presentation-heading-font: 'Montserrat', serif;
+$font-family-sans-serif: 'Montserrat', sans-serif;
+// $font-family-sans-serif: 'Fira Sans', sans-serif;
+$font-family-monospace: 'Fira Mono', monospace;
+
+/*-- scss:rules --*/
+
+.blue {
+  color: $theme-gold;
+  font-weight: bold;
+}
+
+.yellow {
+  color: $theme-yellow;
+  font-weight: bold;
+}
+
+.reveal pre code {
+  background-color: #232525;
+  color: #A9B7C6;
+}
+
+.reveal div.sourceCode pre code {
+  padding: 25px;
+}
+
+.reveal div.sourceCode {
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px !important;
+  box-shadow: 0 20px 47px rgb(0 0 0 / 55%);
+  width: fit-content;
+  margin: auto !important;
+}
+
+code span.er {
+  color: #ebcb8b;
+  text-decoration: none;
+}

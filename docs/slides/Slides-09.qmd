@@ -1,0 +1,36 @@
+---
+title: "Tools for Protest: Technology and Social Media "
+subtitle: "INTEG 475 | [Web-based and Social Media Research Methods]{.yellow} | Module 02"
+author: Dr. John McLevey
+institute: "[Knowledge Integration](https://uwaterloo.ca/knowledge-integration/), [Sociology & Legal Studies](https://uwaterloo.ca/sociology-and-legal-studies/) <br> University of Waterloo"
+format:
+  revealjs: 
+    theme: [default, custom.scss]
+    embed-resources: true
+    execute:
+      echo: true
+      warning: false
+      cache: true
+      freeze: true
+    slide-number: true
+    chalkboard: false
+    preview-links: auto
+    smaller: true
+    fig-align: left
+    fig-format: svg
+    lightbox: true
+    scrollable: true
+    code-overflow: scroll
+    code-fold: false
+    code-line-numbers: true
+    code-copy: hover
+    code-block-border-left: gray 
+    code-block-bg: slate
+    reference-location: document
+    logo: ../images/logo.png
+    footer: <https://www.johnmclevey.com/social-media-web-based-research/>
+    email-obfuscation: javascript
+highlight-style: "nord"
+---
+
+## Coming soon...

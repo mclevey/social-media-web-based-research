@@ -1,0 +1,63 @@
+project:
+  type: book
+  output-dir: _book
+  
+book:
+  title: "An Introduction to Reproducible Research and Probabilistic Modelling"
+  subtitle: "Lecture Notes with Examples in Python"
+  author: "John McLevey"
+  date: "01/01/2024"
+  chapters:
+    - index.qmd
+    - chapters/1-introduction.qmd
+    - chapters/2-computing.qmd
+    - chapters/3-causal-generative-models.qmd
+    - chapters/4-probabilistic-programming.qmd
+    - chapters/5-bayesian-inference.qmd
+    - chapters/6-stochastic-sampling.qmd
+    - chapters/7-linear-models.qmd
+    - chapters/8-hierarchical-regression.qmd
+    - chapters/9-measurement-missing-data-glms.qmd
+    - chapters/10-modelling-networks.qmd
+    - chapters/11-agent-based-models.qmd
+    - chapters/12-conclusion.qmd
+
+pdf-engine: xelatex
+bibliography: references.bib
+csl: apsa.csl
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrbook
+    keep-tex: false
+    classoption: [onecolumn, portrait] # [twocolumn, landscape]
+    papersize: A4
+    toc: true
+    toc-depth: 3
+    toc-title: Contents
+    lof: true
+    lot: true
+    number-sections: true
+    colorlinks: true
+    mainfont: Minion Pro
+    monofont: Menlo
+    sansfont: Helvetica Neue
+    highlight-style: github
+    code-block-border-left: gray
+    code-block-bg: "#f5f6f7"
+    fig-align: center
+    fig-format: pdf
+    execute:
+      echo: true
+      warning: false
+      cache: true
+      freeze: true
+    geometry:
+      - top=30mm
+      - left=20mm
+      - right=60mm
+      - heightrounded
+  epub:
+    cover: ../images/cover.png
